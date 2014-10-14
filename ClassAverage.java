@@ -4,7 +4,7 @@ import java.util.Scanner;
 /*
  * Simple program used to calculate the average of several inputs
  * Used to demonstrate a while loop
- * From Java How To Program, 10/e, Chapter 4
+ * From "Java How To Program, 10/e, Early Objects" - Chapter 4
  */
 
 public class ClassAverage {
