@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 /*
@@ -26,13 +25,15 @@ public class ClassAverage {
             grade = input.nextInt();
         }
         
-        if(counter !=0){
-            double average = (double) total / counter;  //Convert total to a double before performing division
-            System.out.printf("%nTotal of all %d grades is %d%n", counter, total);
+        if (counter != 0) {
+            //Convert total to a double before performing division
+            double average = (double) total / counter;  
+            System.out.printf("%nTotal of all %d grades is %d%n", 
+                    counter, total);
             System.out.printf("Class average is %.2f%n", average);
         } else {
             System.out.println("No grades were entered.");
         }
                
-    }    
-}//End ClassAverage
+    } //End main    
+} //End ClassAverage
